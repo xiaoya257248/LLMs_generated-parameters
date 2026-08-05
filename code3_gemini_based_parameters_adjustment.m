@@ -150,8 +150,6 @@ function [pop, pcrossover_set_LLM, pmutation_set_LLM, time_LLM_pure] = stage_2_N
             HeaderField("Authorization", "Bearer " + api_key) ...
         ];
         
-        % ... (前面的代码不变) ...
-        
         % Send HTTP request
         old_pCrossover = pCrossover;
         old_pMutation = pMutation;
